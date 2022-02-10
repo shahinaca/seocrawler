@@ -1,0 +1,19 @@
+{
+    "name": "shahina/seocrawler",
+    "authors":[
+        {
+            "name": "Shahina  CA",
+            "email": "f.shahina.ca@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "shahinaca\\seocrawler\\SearchEngineCrawler\\": ""
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^2.7",
+        "guzzlehttp/guzzle": "^6.0",
+        "symfony/css-selector": "^2.7"
+    }
+}
